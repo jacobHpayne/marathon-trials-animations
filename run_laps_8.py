@@ -82,12 +82,12 @@ canvas.pack()
 
 # Change runner start coordinates, color, speed (min/mile) and start wave (delay set above, currently 10 scale minutes)
 # to start at the bottom of the straigh-away, change the y coordinate to 470
-items = [Runner(canvas, (250, 517.3), "blue", 5, 'wave1'),
-         Runner(canvas, (250, 517.3), "dodger blue", 5.25, 'wave1'),
-         Runner(canvas, (250, 517.3), "skyblue", 6.17, 'wave1'),
-         Runner(canvas, (250, 517.3), "hot pink", 5.5, 'wave2'),
-         Runner(canvas, (250, 517.3), "deep pink", 5.75, 'wave2'),
-         Runner(canvas, (250, 517.3), "pink", 7.25, 'wave2')]
+items = [Runner(canvas, (250, 297.3), "blue", 5, 'wave1'),
+         Runner(canvas, (250, 297.3), "dodger blue", 5.25, 'wave1'),
+         Runner(canvas, (250, 297.3), "skyblue", 6.17, 'wave1'),
+         Runner(canvas, (250, 297.3), "hot pink", 5.5, 'wave2'),
+         Runner(canvas, (250, 297.3), "deep pink", 5.75, 'wave2'),
+         Runner(canvas, (250, 297.3), "pink", 7.25, 'wave2')]
 
 # Change bounding box of the oval. Keep things to scale, like 100 pixels per mile. Radius 95.5 or 127.3 for 6 or 8 miles
 circuit = canvas.create_oval(-127.3, -127.3, 127.3, 127.3)
